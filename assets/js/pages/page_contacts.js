@@ -9,14 +9,14 @@ var ContactPage = function () {
 			  map = new GMaps({
 				div: '#map',
 				scrollwheel: false,
-				lat: 40.748866,
-				lng: -73.988366
+        lat : 20.689033041405974,
+		    lng : -103.3484860207768
 			  });
 
 			  var marker = map.addMarker({
-				lat: 40.748866,
-				lng: -73.988366,
-	            title: 'Company, Inc.'
+            lat : 20.689033041405974,
+		        lng : -103.3484860207768
+	          title: 'Company, Inc.'
 		       });
 			});
         },
