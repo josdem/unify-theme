@@ -15,7 +15,7 @@ var ContactPage = function () {
 
 			  var marker = map.addMarker({
             lat : 20.689033041405974,
-		        lng : -103.3484860207768
+		        lng : -103.3484860207768,
 	          title: 'Company, Inc.'
 		       });
 			});
